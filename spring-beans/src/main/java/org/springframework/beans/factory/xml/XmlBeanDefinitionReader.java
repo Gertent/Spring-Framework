@@ -376,8 +376,8 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
 
 	/**
-	 * Actually load bean definitions from the specified XML file.
-	 * @param inputSource the SAX InputSource to read from
+	 * Actually load bean definitions from the specified XML file. 从指定的XML文件加载bean定义
+	 * @param inputSource the SAX InputSource to read from  SAX全称Simple API for XML
 	 * @param resource the resource descriptor for the XML file
 	 * @return the number of bean definitions found
 	 * @throws BeanDefinitionStoreException in case of loading or parsing errors
